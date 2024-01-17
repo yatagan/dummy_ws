@@ -21,8 +21,8 @@ websocket_handle(_Data, State) ->
 	{[], State}.
 
 websocket_info({reply, _Reply, _SessionInfo}, State) ->
-    % lager:warning("xz"),
-	lager:log(warning, [], "xz"),
+    lager:warning("xz"),
+	% lager:log(warning, [], "xz"),
 	% io:format("xz"),
     {ok, State};
 websocket_info(_Info, State) ->

@@ -1,6 +1,6 @@
 1. Build and run:
 ```bash
-    $ make rel run
+    $ make run
 ```
 
 2. open http://localhost:8080/
